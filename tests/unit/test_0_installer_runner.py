@@ -23,3 +23,8 @@ def describe_dummy_kata():
     def should_return_negative_7():
         """🧪 should print the number -7 for '-7'"""
         assert number_from_string.convert_string_to_number("-7") == -7
+
+    def should_error_if_not_number_in_string():
+        """🧪 should throw an error in the string doesn't contain a number"""
+        with pytest.raises(ValueError, match="Input string must contain a number"):
+            number_from_string.convert_string_to_number("blah")
