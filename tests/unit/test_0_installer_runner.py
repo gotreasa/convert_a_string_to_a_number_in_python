@@ -15,3 +15,7 @@ def describe_dummy_kata():
     def should_return_605():
         """🧪 should print the number 605 for '605'"""
         assert number_from_string.convert_string_to_number("605") == 605
+
+    def should_return_1405():
+        """🧪 should print the number 1405 for '1405'"""
+        assert number_from_string.convert_string_to_number("1405") == 1405
