@@ -1,2 +1,2 @@
-def print_the_title():
-    print("😊 Welcome to Dummy Kata")
+def convert_string_to_number(input):
+    raise ValueError("Input must be a string")
