@@ -11,3 +11,7 @@ def describe_dummy_kata():
     def should_return_1234():
         """🧪 should print the number 1234 for '1234'"""
         assert number_from_string.convert_string_to_number("1234") == 1234
+
+    def should_return_605():
+        """🧪 should print the number 605 for '605'"""
+        assert number_from_string.convert_string_to_number("605") == 605
